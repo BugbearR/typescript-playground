@@ -1,0 +1,23 @@
+{
+  "name": "typescript-playground",
+  // "image": "mcr.microsoft.com/devcontainers/typescript-node"
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "workspace",
+  "workspaceFolder": "/home/node/workspace",
+  // "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "shardulm94.trailing-spaces",
+        "dbaeumer.vscode-eslint",
+        "Orta.vscode-jest"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  }
+}

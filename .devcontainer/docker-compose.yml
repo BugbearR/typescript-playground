@@ -1,0 +1,7 @@
+services:
+  workspace:
+    image: mcr.microsoft.com/devcontainers/typescript-node
+    # build: ./docker
+    volumes:
+      - ../:/home/node/workspace
+    tty: true
